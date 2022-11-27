@@ -1,0 +1,28 @@
+body {
+   margin: 0;
+}
+
+
+.div {
+display: flex;
+justify-content: center;
+}
+
+.btn {
+   width: clamp( 1px, 200px ,1000px);
+   background-color: #20c407;
+   font-size: 25px;
+   color: white;
+   cursor: pointer;
+   border: 3px solid black;
+   border-radius: 15px;
+   padding: 3px 20px;
+   transition: all 1s;
+   border: 1px solid;
+   padding: 10px;
+   box-shadow: 5px 10px 18px #010410;
+}
+.btn:active {
+   background-color: rgb(47, 0, 255);
+   box-shadow: 1px 5px 5px #010410;
+}
