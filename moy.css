@@ -47,8 +47,8 @@ justify-content: center;
 
 .product__block {
    width: clamp( 160px, 20% ,1000px);
-   height: clamp( 1px, 40vh ,1000px);
-   margin-bottom: 10px;
+   height: clamp( 230px, 40vh ,1000px);
+   margin: 5px 5px 5px 5px;
    background-color: #d5dbd5;
    text-align: center;
 }
