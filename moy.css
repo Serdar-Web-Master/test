@@ -2,6 +2,13 @@ body {
    margin: 0;
 }
 
+.interval {
+   height: 50px;
+   width: 100%;
+   background-color: aqua;
+   text-align: center;
+   padding-top: 20px;
+}
 
 .div {
 display: flex;
@@ -25,4 +32,32 @@ justify-content: center;
 .btn:active {
    background-color: rgb(47, 0, 255);
    box-shadow: 1px 5px 5px #010410;
+}
+
+.red {
+   background-color: red;
+}
+
+.products__blocks {
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   margin-top: 10px;
+}
+
+.product__block {
+   width: clamp( 160px, 20% ,1000px);
+   height: clamp( 1px, 40vh ,1000px);
+   margin-bottom: 10px;
+   background-color: #d5dbd5;
+   text-align: center;
+}
+.block-img {
+   width: clamp( 1px, 80% ,1000px);
+   height: clamp( 1px, 20vh ,1000px);
+   margin: 0 auto;
+   padding: 5px;
+}
+.block-img img {
+   width: 100%;
 }
